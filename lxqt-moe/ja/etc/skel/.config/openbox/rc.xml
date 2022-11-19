@@ -57,7 +57,7 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>IPAexゴシック</name>
+      <name>瀬戸フォント</name>
       <size>8</size>
       <!-- font size in points -->
       <weight>bold</weight>

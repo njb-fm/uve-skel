@@ -57,7 +57,7 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>sans</name>
+      <name>SetoFont</name>
       <size>8</size>
       <!-- font size in points -->
       <weight>bold</weight>
