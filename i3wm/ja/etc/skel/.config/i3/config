@@ -1,6 +1,6 @@
 ################################################
-#                                            #
-#   UVGL i3Edition Configuration File.        #
+#                                              #
+#   UVGL i3 Edition Configuration File.        #
 #   Make a habit to read this file. You will   #
 #   find keybindings and various other         #
 #   settings here. Please see                  #
@@ -68,7 +68,7 @@ exec_always feh --bg-fill /usr/share/backgrounds/i3/simple_blue_widescreen.png
 exec_always --no-startup-id udiskie
 
 # Open shortcuts list
-bindsym $mod+c exec --no-startup-id leafpad ~/.config/i3/shortcuts.list
+bindsym $mod+c exec --no-startup-id l3afpad ~/.config/i3/shortcuts.list
 
 # Provide Gaps to Windows. Increase/Decrease as you like.
 gaps inner 10
