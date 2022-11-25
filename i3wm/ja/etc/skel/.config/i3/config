@@ -62,7 +62,7 @@ exec_always --no-startup-id fcitx5
 exec_always --no-startup-id xfce4-clipman
 
 # Display Wallpaper, always.
-exec_always feh --bg-fill /usr/share/backgrounds/i3/simple_blue_widescreen.png
+exec_always feh --bg-fill /usr/share/backgrounds/univalent/univalent-wall-blue.png
 
 # Launch Udiskie
 exec_always --no-startup-id udiskie
