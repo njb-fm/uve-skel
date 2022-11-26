@@ -65,7 +65,7 @@ exec_always feh --bg-fill /usr/share/backgrounds/univalent/univalent-wall-blue.p
 exec_always --no-startup-id udiskie
 
 # Open shortcuts list
-bindsym $mod+c exec --no-startup-id l3afpad ~/.config/i3/shortcuts.list
+bindsym $mod+c exec --no-startup-id xdg-open ~/.config/i3/shortcuts.list
 
 # Provide Gaps to Windows. Increase/Decrease as you like.
 gaps inner 10

@@ -30,8 +30,7 @@ arrangement=1
 iconSize=2
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/univalent/univalent-wall-pink.png
-SlidePaths=/usr/share/wallpapers
+Image=file:///usr/share/wallpapers/univalent/univalent-wall-blue.png
 
 [Containments][2]
 activityId=
