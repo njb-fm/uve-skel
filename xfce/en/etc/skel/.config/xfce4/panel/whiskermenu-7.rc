@@ -50,7 +50,7 @@ show-command-profile=true
 search-actions=6
 
 [action0]
-name=Man ページ
+name=Man Page
 pattern=#
 command=exo-open --launch TerminalEmulator man %s
 regex=false
