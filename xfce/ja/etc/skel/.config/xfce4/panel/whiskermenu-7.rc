@@ -74,7 +74,7 @@ command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
 regex=false
 
 [action4]
-name=ターミナルで開く
+name=ターミナルで実行する
 pattern=!
 command=exo-open --launch TerminalEmulator %s
 regex=false
