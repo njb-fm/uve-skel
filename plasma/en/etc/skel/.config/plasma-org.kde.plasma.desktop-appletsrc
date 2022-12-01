@@ -77,8 +77,8 @@ DialogWidth=720
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
-icon=kde-frameworks
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+icon=/usr/share/pixmaps/univalent.png
+systemFavorites=suspend\\,reboot\\,shutdown
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
 global=Alt+F1
@@ -115,7 +115,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=56
+PreloadWeight=66
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -200,7 +200,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][8][Applets][9][Configuration]
-PreloadWeight=21
+PreloadWeight=31
 
 [Containments][8][Configuration]
 PreloadWeight=0
