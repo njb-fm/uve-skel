@@ -45,7 +45,7 @@ bindsym $mod+t exec pcmanfm
 # This is the recommended mode. It searches for the programs as
 # defined in .desktop file, with their description, and corresponding
 # icons
-bindsym $mod+d exec --no-startup-id rofi -show drun -theme Monokai -icon-theme "Papirus" -show-icons
+bindsym $mod+d exec --no-startup-id rofi -show drun -theme Monokai -icon-theme "Oxygen" -show-icons
 
 # The other mode search for applications in /usr/bin or /usr/sbin.
 # This should only be used if a program lacks a .desktop file.
@@ -54,9 +54,6 @@ bindsym $mod+Shift+d exec --no-startup-id rofi -show run -theme Monokai
 # Launch Polybar. Take a look at ~/.confi/polybar/config to
 # configure the bar.
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
-# Launch fcitx5
-exec_always --no-startup-id fcitx5
 
 # Launch cbatticon
 exec_always --no-startup-id cbatticon
@@ -75,6 +72,9 @@ exec_always --no-startup-id pamac-tray
 
 # Launch Dunst. The config file is ~/.config/dunst/dunstrc
 exec_always --no-startup-id dunst
+
+# Launch Fcitx5
+exec_always --no-startup-id fcitx5
 
 # Open shortcuts list
 bindsym $mod+c exec --no-startup-id xdg-open ~/.config/i3/shortcuts.list
@@ -290,6 +290,7 @@ for_window [class="firefox"] move to workspace $ws5
 # touching program launcher. Assign Programs to respective
 # workspaces.
 bindsym $mod+b exec chromium
+
 
 #Multi Monitor (Dual Monitor, extended monitor)
 #Replace HDMI2 with DVI-2, VGA-2, DP-2, DVI-2 etc. Get value by typing xrandr in the terminal.
