@@ -73,6 +73,9 @@ exec_always --no-startup-id pamac-tray
 # Launch Dunst. The config file is ~/.config/dunst/dunstrc
 exec_always --no-startup-id dunst
 
+# Launch volumeicon
+exec_always --no-startup-id volumeicon
+
 # Open shortcuts list
 bindsym $mod+c exec --no-startup-id xdg-open ~/.config/i3/shortcuts.list
 

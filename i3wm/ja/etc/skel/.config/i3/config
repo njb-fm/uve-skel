@@ -76,6 +76,9 @@ exec_always --no-startup-id dunst
 # Launch Fcitx5
 exec_always --no-startup-id fcitx5
 
+# Launch volumeicon
+exec_always --no-startup-id volumeicon
+
 # Open shortcuts list
 bindsym $mod+c exec --no-startup-id xdg-open ~/.config/i3/shortcuts.list
 
