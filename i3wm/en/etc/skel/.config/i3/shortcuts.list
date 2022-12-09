@@ -7,7 +7,7 @@ Mod+C - Open this shortcut key list
 
 Mod+Return or Ctrl+Alt+T - exec terminal emulator
 Mod+Shift+Q or Alt+F4 - close focused window
-Mod+T - exec pcmanfm
+Mod+T - exec pcmanfm-qt
 Mod+U - exec univalent tools
 Mod+D - open rofi launcher
 Mod+X - lock screen
@@ -27,7 +27,7 @@ Mod+Space - Change focus between tiling / floating windows
 
 Mod+1-0 - Switch to workspace 1-10
 Mod+Shift+1-0 - Move container to workspace number 1-10
-Mod+PgUp/PgDn - Switch to  previous/next Workspace
+Mod+PgUp/PgDn - Switch to previous/next Workspace
 
 Mod+Shift+C - Reload the config file
 Mod+Shift+R - Restart i3-wm
