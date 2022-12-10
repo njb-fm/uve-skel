@@ -90,7 +90,7 @@ exec_always picom -f
 
 # Lock Screen This will yield a black lock screen, which
 # can be customized to your liking.
-bindsym $mod+x exec dm-tool
+bindsym $mod+x exec dm-tool lock
 
 # Shutdown the computer
 bindsym $mod+Shift+s exec shutdown now
