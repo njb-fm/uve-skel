@@ -14,5 +14,5 @@ image/jpeg=lximage-qt.desktop;org.xfce.ristretto.desktop;
 image/png=lximage-qt.desktop;org.xfce.ristretto.desktop;
 image/gif=lximage-qt.desktop;org.xfce.ristretto.desktop;
 application/vnd.kde.kxmlguirc=org.xfce.mousepad.desktop;
-text/plain=l3afpad.desktop;
+text/plain=org.gnome.TextEditor.desktop;
 application/x-shellscript=org.xfce.mousepad.desktop;
