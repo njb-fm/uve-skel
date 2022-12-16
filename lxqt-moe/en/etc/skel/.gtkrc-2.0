@@ -1,12 +1,10 @@
 
 # Created by lxqt-config-appearance (DO NOT EDIT!)
-[Settings]
-gtk-theme-name = Moe-Pink16
-gtk-icon-theme-name = MoePinkIcons
-# GTK3 ignores bold or italic attributes.
-gtk-font-name = SetoFont 11
-gtk-menu-images = 1
+gtk-theme-name = "Moe-Pink16"
+gtk-icon-theme-name = "MoePinkIcons"
+gtk-font-name = "SetoFont 11"
 gtk-button-images = 1
+gtk-menu-images = 1
 gtk-toolbar-style = GTK_TOOLBAR_BOTH_HORIZ
 gtk-cursor-theme-name = default
 gtk-cursor-theme-size = 16
