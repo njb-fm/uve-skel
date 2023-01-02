@@ -1,11 +1,11 @@
 [Default Applications]
-x-scheme-handler/http=chromium.desktop
-x-scheme-handler/https=chromium.desktop
+x-scheme-handler/http=floorp.desktop
+x-scheme-handler/https=floorp.desktop
 x-scheme-handler/mailto=claws-mail.desktop
 image/gif=org.xfce.ristretto.desktop
 image/jpeg=org.xfce.ristretto.desktop
 image/png=org.xfce.ristretto.desktop
-image/webp=chromium.desktop
+image/webp=floorp.desktop
 application/javascript=vim.desktop
 application/x-httpd-php3=vim.desktop
 application/x-httpd-php4=vim.desktop
@@ -40,8 +40,8 @@ image/x-pixmap=org.xfce.ristretto.desktop
 image/x-xpixmap=org.xfce.ristretto.desktop
 
 [Added Associations]
-x-scheme-handler/http=chromium.desktop
-x-scheme-handler/https=chromium.desktop
+x-scheme-handler/http=floorp.desktop
+x-scheme-handler/https=floorp.desktop
 x-scheme-handler/mailto=claws-mail.desktop
 text/x-python=vim.desktop;
 application/javascript=vim.desktop;

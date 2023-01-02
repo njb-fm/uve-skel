@@ -77,13 +77,13 @@
     <property name="plugin-7" type="string" value="whiskermenu"/>
     <property name="plugin-1" type="string" value="showdesktop"/>
     <property name="plugin-15" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16603671571.desktop"/>
+      <property name="items" type="array" >
+		<value type="string" value="16603671571.desktop" />
       </property>
     </property>
     <property name="plugin-16" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16603671812.desktop"/>
+		<value type="string" value="16725822401.desktop" />
       </property>
     </property>
     <property name="plugin-17" type="string" value="xfce4-mount-plugin"/>

@@ -1,4 +1,4 @@
-favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
+favorites=floorp.desktop,claws-mail.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
 button-icon=/usr/share/pixmaps/univalent.png
 button-single-row=false
 show-button-title=false

@@ -51,6 +51,13 @@ image/x-wmf=eom.desktop
 image/x-xbitmap=eom.desktop
 image/x-xcf=eom.desktop
 image/x-xpixmap=eom.desktop
+audio/flac=org.gnome.Rhythmbox3.desktop
+audio/x-flac=org.gnome.Rhythmbox3.desktop
+audio/mpeg=org.gnome.Rhythmbox3.desktop
+audio/x-mpegurl=org.gnome.Rhythmbox3.desktop
+audio/x-scpls=org.gnome.Rhythmbox3.desktop
+audio/x-vorbis+ogg=org.gnome.Rhythmbox3.desktop
+audio/x-wav=org.gnome.Rhythmbox3.desktop
 
 [Added Associations]
 image/bmp=eom.desktop;
@@ -104,3 +111,10 @@ image/x-wmf=eom.desktop;
 image/x-xbitmap=eom.desktop;
 image/x-xcf=eom.desktop;
 image/x-xpixmap=eom.desktop;
+audio/flac=org.gnome.Rhythmbox3.desktop
+audio/x-flac=org.gnome.Rhythmbox3.desktop
+audio/mpeg=org.gnome.Rhythmbox3.desktop
+audio/x-mpegurl=org.gnome.Rhythmbox3.desktop
+audio/x-scpls=org.gnome.Rhythmbox3.desktop
+audio/x-vorbis+ogg=org.gnome.Rhythmbox3.desktop
+audio/x-wav=org.gnome.Rhythmbox3.desktop

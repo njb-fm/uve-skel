@@ -1,15 +1,15 @@
 [Added Associations]
 inode/directory=pcmanfm-qt.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
-x-scheme-handler/http=chromium.desktop;
-x-scheme-handler/https=chromium.desktop;
+x-scheme-handler/http=floorp.desktop;
+x-scheme-handler/https=floorp.desktop;
 x-scheme-handler/mailto=claws-mail.desktop;
 
 [Default Applications]
 inode/directory=pcmanfm-qt.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
-x-scheme-handler/http=chromium.desktop;
-x-scheme-handler/https=chromium.desktop;
+x-scheme-handler/http=floorp.desktop;
+x-scheme-handler/https=floorp.desktop;
 x-scheme-handler/mailto=claws-mail.desktop;
 audio/mpeg=org.gnome.Rhythmbox3.desktop;
 audio/flac=org.gnome.Rhythmbox3.desktop;
