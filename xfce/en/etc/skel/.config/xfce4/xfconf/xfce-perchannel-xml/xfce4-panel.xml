@@ -47,22 +47,24 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="ethernet ネットワーク接続 &apos;wired connection 1&apos; はアクティブです"/>
+        <value type="string" value="ethernet Network Connection &apos;wired connection 1&apos; is active"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="clipman"/>
         <value type="string" value="thunar"/>
-        <value type="string" value="networkmanager アプレット"/>
-        <value type="string" value="ethernet ネットワーク接続 &apos;有線接続 1&apos; はアクティブです"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="ethernet Network Connection &apos;wired connection 1&apos; is active"/>
         <value type="string" value="pamac-tray"/>
         <value type="string" value="fcitx5 tray window"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
         <value type="string" value="Fcitx"/>
       </property>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="rhythmbox;vlc"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -77,13 +79,13 @@
     <property name="plugin-7" type="string" value="whiskermenu"/>
     <property name="plugin-1" type="string" value="showdesktop"/>
     <property name="plugin-15" type="string" value="launcher">
-      <property name="items" type="array" >
-		<value type="string" value="16603671571.desktop" />
+      <property name="items" type="array">
+        <value type="string" value="16603671571.desktop"/>
       </property>
     </property>
     <property name="plugin-16" type="string" value="launcher">
       <property name="items" type="array">
-		<value type="string" value="16725822401.desktop" />
+        <value type="string" value="16725822401.desktop"/>
       </property>
     </property>
     <property name="plugin-17" type="string" value="xfce4-mount-plugin"/>
