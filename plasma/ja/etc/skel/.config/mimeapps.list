@@ -6,7 +6,7 @@ x-scheme-handler/https=floorp.desktop;
 x-scheme-handler/mailto=claws-mail.desktop;
 
 [Default Applications]
-inode/directory=pcmanfm-qt.desktop;
+inode/directory=org.plasma.dolphin.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
 x-scheme-handler/http=floorp.desktop;
 x-scheme-handler/https=floorp.desktop;
