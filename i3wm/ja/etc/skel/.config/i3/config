@@ -1,6 +1,6 @@
 ################################################
 #                                              #
-#   UVGL i3 Edition Configuration File.        #
+#   Uni3valent's Configuration File.           #
 #   Make a habit to read this file. You will   #
 #   find keybindings and various other         #
 #   settings here. Please see                  #
@@ -20,7 +20,7 @@
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar.
-font pango:monospace 15
+font pango:IPAPGothic 15
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -65,7 +65,7 @@ exec_always --no-startup-id xfce4-clipman
 exec_always feh --bg-fill /usr/share/backgrounds/univalent/univalent-wall-blue.png
 
 # Launch Udiskie
-exec_always --no-startup-id udiskie
+exec_always --no-startup-id udiskie -t
 
 # Launch Pamac tray
 exec_always --no-startup-id pamac-tray
