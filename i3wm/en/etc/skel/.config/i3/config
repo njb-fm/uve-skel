@@ -49,7 +49,7 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -theme Monokai -icon-theme "
 
 # The other mode search for applications in /usr/bin or /usr/sbin.
 # This should only be used if a program lacks a .desktop file.
-bindsym $mod+Shift+d exec --no-startup-id rofi -show run -theme Monokai
+bindsym $mod+Shift+d exec --no-startup-id TERMINAL=xfce4-terminal rofi -show run -theme Monokai
 
 # Launch Polybar. Take a look at ~/.confi/polybar/config to
 # configure the bar.
@@ -240,7 +240,7 @@ bindsym $mod+Shift+c reload
 # 12B] restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # 12C] exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -b 'Log out' 'i3-msg exit' -b 'Shut down' 'shutdown -h now' -b 'Reboot' 'reboot'"
 
 # 13A] resize window (you can also use the mouse for that)
 mode "resize" {
