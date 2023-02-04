@@ -1,10 +1,6 @@
 [Hotkey]
 # トリガーキーを押すたびに切り替える
 EnumerateWithTriggerKeys=True
-# 一時的に第1入力メソッドに切り替える
-AltTriggerKeys=
-# 前の入力メソッドに切り替える
-EnumerateBackwardKeys=
 # 切り替え時は第1入力メソッドをスキップする
 EnumerateSkipFirst=False
 
@@ -13,8 +9,14 @@ EnumerateSkipFirst=False
 1=Zenkaku_Hankaku
 2=Eisu_toggle
 
+[Hotkey/AltTriggerKeys]
+0=Shift_L
+
 [Hotkey/EnumerateForwardKeys]
-0=Alt+Shift+Shift_L
+0=Control+Shift_L
+
+[Hotkey/EnumerateBackwardKeys]
+0=Control+Shift_R
 
 [Hotkey/EnumerateGroupForwardKeys]
 0=Super+space

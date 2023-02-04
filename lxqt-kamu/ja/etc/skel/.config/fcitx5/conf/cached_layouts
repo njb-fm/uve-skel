@@ -1,3 +1,8 @@
+[keyboard-bqn]
+Description="キーボード - BQN"
+Language=en
+Label=bqn
+
 [keyboard-apl]
 Description="キーボード - APL"
 Language=en
@@ -32,11 +37,6 @@ Label=aplII
 Description="キーボード - APL - APL symbols (APLX unified)"
 Language=en
 Label=aplx
-
-[keyboard-jv]
-Description="キーボード - Indonesian (Javanese)"
-Language=jv
-Label=jv
 
 [keyboard-tz]
 Description="キーボード - スワヒリ語 (タンザニア)"
@@ -178,6 +178,11 @@ Description="キーボード - 英語 (UK) - Polish (British keyboard)"
 Language=pl
 Label=pl
 
+[keyboard-gb-gla]
+Description="キーボード - 英語 (UK) - Scottish Gaelic"
+Language=en
+Label=gd
+
 [keyboard-gb-sun_type6]
 Description="キーボード - 英語 (UK) - 英語 (UK、Sun Type 6/7)"
 Language=en
@@ -203,6 +208,11 @@ Description="キーボード - ウクライナ語 - Ukrainian (Windows)"
 Language=uk
 Label=ua
 
+[keyboard-ua-macOS]
+Description="キーボード - ウクライナ語 - Ukrainian (macOS)"
+Language=uk
+Label=ua
+
 [keyboard-ua-legacy]
 Description="キーボード - ウクライナ語 - ウクライナ語 (legacy)"
 Language=uk
@@ -215,13 +225,28 @@ Label=ua
 
 [keyboard-ua-rstu_ru]
 Description="キーボード - ウクライナ語 - ロシア語 (ウクライナ、標準 RSTU)"
-Language=uk
+Language=ru
 Label=ua
 
 [keyboard-ua-homophonic]
 Description="キーボード - ウクライナ語 - ウクライナ語 (homophonic)"
 Language=uk
 Label=ua
+
+[keyboard-ua-crh]
+Description="キーボード - ウクライナ語 - クリミア・タタール語 (トルコ語 Q)"
+Language=crh
+Label=crh
+
+[keyboard-ua-crh_f]
+Description="キーボード - ウクライナ語 - クリミア・タタール語 (トルコ語 F)"
+Language=crh
+Label=crh
+
+[keyboard-ua-crh_alt]
+Description="キーボード - ウクライナ語 - クリミア・タタール語 (トルコ語 Alt-Q)"
+Language=crh
+Label=crh
 
 [keyboard-ua-sun_type6]
 Description="キーボード - ウクライナ語 - ウクライナ語 (Sun Type 6/7)"
@@ -247,11 +272,6 @@ Label=th
 Description="キーボード - Dhivehi"
 Language=dv
 Label=dv
-
-[keyboard-nec_vndr/jp]
-Description="キーボード - Japanese (PC-98)"
-Language=ja
-Label=ja
 
 [keyboard-tj]
 Description="キーボード - タジク語"
@@ -317,6 +337,16 @@ Label=ru
 Description="キーボード - ロシア語 - ロシア語 (タイプライター)"
 Language=ru
 Label=ru
+
+[keyboard-ru-ruchey_ru]
+Description="キーボード - ロシア語 - Russian (engineering, RU)"
+Language=ru
+Label=ru
+
+[keyboard-ru-ruchey_en]
+Description="キーボード - ロシア語 - Russian (engineering, EN)"
+Language=ru
+Label=en
 
 [keyboard-ru-legacy]
 Description="キーボード - ロシア語 - ロシア語 (legacy)"
@@ -413,6 +443,11 @@ Description="キーボード - ロシア語 - Russian (phonetic, French)"
 Language=ru
 Label=ru
 
+[keyboard-ru-ab]
+Description="キーボード - ロシア語 - Abkhazian (Russia)"
+Language=ab
+Label=ru
+
 [keyboard-ru-chu]
 Description="キーボード - ロシア語 - Church Slavonic"
 Language=cu
@@ -434,7 +469,7 @@ Language=ru
 Label=ru
 
 [keyboard-ru-sun_type6]
-Description="キーボード - ロシア語 - ロシア語 (Sun Type 6/7)"
+Description="キーボード - ロシア語 - 6/7)"
 Language=ru
 Label=ru
 
@@ -443,13 +478,33 @@ Description="キーボード - ロシア語 - Russian (with US punctuation)"
 Language=ru
 Label=ru
 
+[keyboard-ru-gost-6431-75-48]
+Description="キーボード - ロシア語 - Russian (GOST 6431-75)"
+Language=ru
+Label=ru
+
+[keyboard-ru-gost-14289-88]
+Description="キーボード - ロシア語 - Russian (GOST 14289-88)"
+Language=ru
+Label=ru
+
 [keyboard-ru-prxn]
 Description="キーボード - ロシア語 - Russian (Polyglot and Reactionary)"
 Language=ru
 Label=ru
 
+[keyboard-ru-winkeys-p]
+Description="キーボード - ロシア語 - Russian (Programmer)"
+Language=ru
+Label=winkeys-p
+
 [keyboard-trans]
 Description="キーボード - International Phonetic Alphabet"
+Language=
+Label=ipa
+
+[keyboard-trans-qwerty]
+Description="キーボード - International Phonetic Alphabet - International Phonetic Alphabet (QWERTY)"
 Language=
 Label=trans
 
@@ -463,13 +518,18 @@ Description="キーボード - ペルシア語 - Persian (with Persian keypad)"
 Language=fa
 Label=ir
 
+[keyboard-ir-azb]
+Description="キーボード - ペルシア語 - Azerbaijani (Iran)"
+Language=azb
+Label=azb
+
 [keyboard-ir-ku]
 Description="キーボード - ペルシア語 - クルド語 (イラン、ラテン Q)"
 Language=ku
 Label=ku
 
 [keyboard-ir-ku_f]
-Description="キーボード - ペルシア語 - , F)"
+Description="キーボード - ペルシア語 - クルド語 (イラン、F)"
 Language=ku
 Label=ku
 
@@ -688,6 +748,11 @@ Description="キーボード - チェコ語 - Czech (programming, typographic)"
 Language=cs
 Label=cz
 
+[keyboard-cz-colemak-ucw]
+Description="キーボード - チェコ語 - Czech (US, Colemak, UCW support)"
+Language=cs
+Label=cz
+
 [keyboard-se]
 Description="キーボード - スウェーデン語"
 Language=sv
@@ -755,7 +820,7 @@ Label=se
 
 [keyboard-se-ovd]
 Description="キーボード - スウェーデン語 - Elfdalian (Swedish, with combining ogonek)"
-Language=
+Language=ovd
 Label=se
 
 [keyboard-bg]
@@ -878,6 +943,11 @@ Description="キーボード - 英語 (US) - 英語 (プログラマー Dvorak)"
 Language=en
 Label=us
 
+[keyboard-us-dvorak-mac]
+Description="キーボード - 英語 (US) - English (Dvorak, Macintosh)"
+Language=en
+Label=us
+
 [keyboard-us-symbolic]
 Description="キーボード - 英語 (US) - English (US, Symbolic)"
 Language=en
@@ -984,7 +1054,7 @@ Language=en
 Label=us
 
 [keyboard-us-carpalx-altgr-intl]
-Description="キーボード - 英語 (US) - English (Carpalx, intl., with AltGr dead keys)"
+Description="キーボード - 英語 (US) - ntl., with AltGr dead keys)"
 Language=en
 Label=us
 
@@ -1009,7 +1079,7 @@ Language=en
 Label=us
 
 [keyboard-us-3l-cros]
-Description="キーボード - 英語 (US) - mebook)"
+Description="キーボード - 英語 (US) - English (3l, Chromebook)"
 Language=en
 Label=us
 
@@ -1018,8 +1088,18 @@ Description="キーボード - 英語 (US) - English (3l, emacs)"
 Language=en
 Label=us
 
+[keyboard-us-workman-p]
+Description="キーボード - 英語 (US) - English (Workman-P)"
+Language=en
+Label=workman-p
+
 [keyboard-us-scn]
 Description="キーボード - 英語 (US) - Sicilian (US keyboard)"
+Language=en
+Label=us
+
+[keyboard-us-altgr-weur]
+Description="キーボード - 英語 (US) - English (Western European AltGr dead keys)"
 Language=en
 Label=us
 
@@ -1105,7 +1185,7 @@ Label=ku
 
 [keyboard-ma]
 Description="キーボード - アラビア語 (モロッコ)"
-Language=
+Language=ary
 Label=ar
 
 [keyboard-ma-french]
@@ -1143,39 +1223,44 @@ Description="キーボード - アラビア語 (モロッコ) - Berber (Morocco,
 Language=
 Label=ber
 
+[keyboard-ma-rif]
+Description="キーボード - アラビア語 (モロッコ) - Tarifit"
+Language=rif
+Label=rif
+
 [keyboard-af]
-Description="キーボード - アフガニスタン語"
-Language=
+Description="キーボード - Dari"
+Language=drs
 Label=fa
 
 [keyboard-af-ps]
-Description="キーボード - アフガニスタン語 - パシュト語"
+Description="キーボード - Dari - パシュト語"
 Language=ps
 Label=ps
 
 [keyboard-af-uz]
-Description="キーボード - アフガニスタン語 - ウズベク語 (アフガニスタン)"
+Description="キーボード - Dari - ウズベク語 (アフガニスタン)"
 Language=uz
 Label=uz
 
-[keyboard-af-olpc-ps]
-Description="キーボード - アフガニスタン語 - パシュト語 (アフガニスタン、OLPC)"
+[keyboard-af-ps-olpc]
+Description="キーボード - Dari - パシュト語 (アフガニスタン、OLPC)"
 Language=ps
 Label=ps
 
 [keyboard-af-fa-olpc]
-Description="キーボード - アフガニスタン語 - ペルシア語 (アフガニスタン、ダリー語 OLPC)"
-Language=
+Description="キーボード - Dari - Dari (Afghanistan, OLPC)"
+Language=drs
 Label=fa
 
 [keyboard-af-uz-olpc]
-Description="キーボード - アフガニスタン語 - ウズベク語 (アフガニスタン、OLPC)"
+Description="キーボード - Dari - ウズベク語 (アフガニスタン、OLPC)"
 Language=uz
 Label=uz
 
 [keyboard-dz]
 Description="キーボード - Berber (Algeria, Latin)"
-Language=
+Language=tzm
 Label=kab
 
 [keyboard-dz-azerty-deadkeys]
@@ -1234,7 +1319,7 @@ Language=sd
 Label=sd
 
 [keyboard-pk-urd-navees]
-Description="キーボード - ウルドゥー語 (パキスタン) - Urdu (Navees, Pakistan)"
+Description="キーボード - ウルドゥー語 (パキスタン) - Urdu (Pakistan, Navees)"
 Language=ur
 Label=pk
 
@@ -1274,7 +1359,7 @@ Language=vi
 Label=vn
 
 [keyboard-vn-fr]
-Description="キーボード - ベトナム語 - Vietnamese (French)"
+Description="キーボード - ベトナム語 - Vietnamese (France)"
 Language=vi
 Label=vn
 
@@ -1304,7 +1389,7 @@ Language=ar
 Label=ara
 
 [keyboard-ara-digits]
-Description="キーボード - アラビア語 - ls)"
+Description="キーボード - アラビア語 - Arabic (Eastern Arabic numerals)"
 Language=ar
 Label=ara
 
@@ -1350,6 +1435,11 @@ Label=ara
 
 [keyboard-ara-uga]
 Description="キーボード - アラビア語 - Ugaritic instead of Arabic"
+Language=ar
+Label=ara
+
+[keyboard-ara-ergoarabic]
+Description="キーボード - アラビア語 - Arabic (ErgoArabic)"
 Language=ar
 Label=ara
 
@@ -1448,7 +1538,7 @@ Description="キーボード - フィリピノ語 - Filipino (Capewell-QWERF 200
 Language=fil
 Label=ph
 
-[keyboard-ph-ak]
+[keyboard-ph-colemak]
 Description="キーボード - フィリピノ語 - Filipino (Colemak, Latin)"
 Language=fil
 Label=ph
@@ -1484,7 +1574,7 @@ Language=si
 Label=si
 
 [keyboard-lk-tam_unicode]
-Description="キーボード - シンハラ語 (表音) - Tamil (Sri Lanka, TamilNet '99)"
+Description="キーボード - シンハラ語 (表音) - (Sri Lanka, TamilNet '99)"
 Language=ta
 Label=ta
 
@@ -1638,6 +1728,26 @@ Description="キーボード - ビルマ語 - Burmese Zawgyi"
 Language=my
 Label=zg
 
+[keyboard-mm-shn]
+Description="キーボード - ビルマ語 - Shan"
+Language=shn
+Label=shn
+
+[keyboard-mm-zgt]
+Description="キーボード - ビルマ語 - Shan (Zawgyi Tai)"
+Language=shn
+Label=zgt
+
+[keyboard-mm-mnw]
+Description="キーボード - ビルマ語 - Mon"
+Language=mnw
+Label=mon
+
+[keyboard-mm-mnw-a1]
+Description="キーボード - ビルマ語 - Mon (A1)"
+Language=mnw
+Label=mon-a1
+
 [keyboard-si]
 Description="キーボード - スロベニア語"
 Language=sl
@@ -1705,11 +1815,16 @@ Label=by
 
 [keyboard-by-ru]
 Description="キーボード - ベラルーシ語 - Russian (Belarus)"
-Language=be
+Language=ru
 Label=by
 
 [keyboard-by-intl]
 Description="キーボード - ベラルーシ語 - Belarusian (intl.)"
+Language=be
+Label=by
+
+[keyboard-by-phonetic]
+Description="キーボード - ベラルーシ語 - Belarusian (phonetic)"
 Language=be
 Label=by
 
@@ -1755,7 +1870,7 @@ Label=br
 
 [keyboard-in]
 Description="キーボード - Indian"
-Language=
+Language=hi
 Label=in
 
 [keyboard-in-ben]
@@ -1853,28 +1968,33 @@ Description="キーボード - Indian - Ol Chiki"
 Language=sat
 Label=sat
 
-[keyboard-in-tam_tamilnet]
+[keyboard-in-tamilnet]
 Description="キーボード - Indian - Tamil (TamilNet '99)"
 Language=ta
 Label=ta
 
-[keyboard-in-tam_tamilnet_with_tam_nums]
+[keyboard-in-tamilnet_tamilnumbers]
 Description="キーボード - Indian - Tamil (TamilNet '99 with Tamil numerals)"
 Language=ta
 Label=ta
 
-[keyboard-in-tam_tamilnet_TAB]
+[keyboard-in-tamilnet_TAB]
 Description="キーボード - Indian - Tamil (TamilNet '99, TAB encoding)"
 Language=ta
 Label=ta
 
-[keyboard-in-tam_tamilnet_TSCII]
+[keyboard-in-tamilnet_TSCII]
 Description="キーボード - Indian - Tamil (TamilNet '99, TSCII encoding)"
 Language=ta
 Label=ta
 
 [keyboard-in-tam]
-Description="キーボード - Indian - Tamil (InScript)"
+Description="キーボード - Indian - Tamil (InScript, with Arabic numerals)"
+Language=ta
+Label=ta
+
+[keyboard-in-tam_tamilnumbers]
+Description="キーボード - Indian - Tamil (InScript, with Tamil numerals)"
 Language=ta
 Label=ta
 
@@ -1914,7 +2034,7 @@ Language=hi
 Label=hi
 
 [keyboard-in-hin-wx]
-Description="キーボード - Indian - (Wx)"
+Description="キーボード - Indian - ヒンディー語 (Wx)"
 Language=hi
 Label=hi
 
@@ -2001,7 +2121,7 @@ Label=be
 [keyboard-eg]
 Description="キーボード - Coptic"
 Language=cop
-Label=eg
+Label=cop
 
 [keyboard-cd]
 Description="キーボード - フランス語 (コンゴ民主共和国)"
@@ -2114,7 +2234,7 @@ Language=lv
 Label=lv
 
 [keyboard-lv-apostrophe-deadquotes]
-Description="キーボード - ラトビア語 - Latvian (apostrophe, dead quotes)"
+Description="キーボード - ラトビア語 - ad quotes)"
 Language=lv
 Label=lv
 
@@ -2344,7 +2464,7 @@ Language=ug
 Label=ug
 
 [keyboard-cn-altgr-pinyin]
-Description="キーボード - 中国語 - Hanyu Pinyin (with AltGr dead keys)"
+Description="キーボード - 中国語 - Hanyu Pinyin Letters (with AltGr dead keys)"
 Language=zh
 Label=cn
 
@@ -2364,17 +2484,7 @@ Language=fr
 Label=fr
 
 [keyboard-ca-multix]
-Description="キーボード - フランス語 (カナダ) - Canadian (intl.)"
-Language=fr
-Label=ca
-
-[keyboard-ca-multi]
-Description="キーボード - フランス語 (カナダ) - Canadian (intl., 1st part)"
-Language=fr
-Label=ca
-
-[keyboard-ca-multi-2gr]
-Description="キーボード - フランス語 (カナダ) - Canadian (intl., 2nd part)"
+Description="キーボード - フランス語 (カナダ) - Canadian (CSA)"
 Language=fr
 Label=ca
 
@@ -2414,7 +2524,7 @@ Language=en
 Label=gh
 
 [keyboard-gh-akan]
-Description="キーボード - 英語 (ガーナ) - アカン語"
+Description="キーボード - 英語 (ガーナ) - Akan"
 Language=ak
 Label=ak
 
@@ -2439,7 +2549,7 @@ Language=ha
 Label=ha
 
 [keyboard-gh-avn]
-Description="キーボード - 英語 (ガーナ) - アヴァティメ語"
+Description="キーボード - 英語 (ガーナ) - Avatime"
 Language=avn
 Label=avn
 
@@ -2519,8 +2629,8 @@ Language=fr
 Label=fr
 
 [keyboard-fr-bre]
-Description="キーボード - フランス語 - フランス語 (ブレトン)"
-Language=fr
+Description="キーボード - フランス語 - Breton (France)"
+Language=br
 Label=fr
 
 [keyboard-fr-oci]
@@ -2556,7 +2666,7 @@ Label=fr
 [keyboard-gn]
 Description="キーボード - N'Ko (AZERTY)"
 Language=nqo
-Label=gn
+Label=nqo
 
 [keyboard-uz]
 Description="キーボード - ウズベク語"
@@ -2723,8 +2833,23 @@ Description="キーボード - Indonesian (Latin)"
 Language=id
 Label=id
 
-[keyboard-id-phoneticx]
-Description="キーボード - Indonesian (Latin) - Indonesian (Arab Pegon, extended phonetic)"
+[keyboard-id-javanese]
+Description="キーボード - Indonesian (Latin) - Javanese"
+Language=jax
+Label=id
+
+[keyboard-id-melayu-phonetic]
+Description="キーボード - Indonesian (Latin) - Indonesian (Arab Melayu, phonetic)"
+Language=id
+Label=id
+
+[keyboard-id-melayu-phoneticx]
+Description="キーボード - Indonesian (Latin) - Indonesian (Arab Melayu, extended phonetic)"
+Language=id
+Label=id
+
+[keyboard-id-pegon-phonetic]
+Description="キーボード - Indonesian (Latin) - Indonesian (Arab Pegon, phonetic)"
 Language=id
 Label=id
 
@@ -2994,7 +3119,7 @@ Language=hu
 Label=hu
 
 [keyboard-hu-101_qwerty_comma_dead]
-Description="キーボード - ハンガリー語 - Hungarian (QWERTY, 101-key, comma, dead keys)"
+Description="キーボード - ハンガリー語 - )"
 Language=hu
 Label=hu
 
@@ -3003,7 +3128,7 @@ Description="キーボード - ハンガリー語 - Hungarian (QWERTY, 101-key, 
 Language=hu
 Label=hu
 
-[keyboard-hu-ead]
+[keyboard-hu-101_qwerty_dot_dead]
 Description="キーボード - ハンガリー語 - Hungarian (QWERTY, 101-key, dot, dead keys)"
 Language=hu
 Label=hu
@@ -3073,6 +3198,11 @@ Description="キーボード - トルコ語 - トルコ語 (F)"
 Language=tr
 Label=tr
 
+[keyboard-tr-e]
+Description="キーボード - トルコ語 - Turkish (E)"
+Language=tr
+Label=tr
+
 [keyboard-tr-alt]
 Description="キーボード - トルコ語 - トルコ語 (Alt-Q)"
 Language=tr
@@ -3098,23 +3228,8 @@ Description="キーボード - トルコ語 - Turkish (intl., with dead keys)"
 Language=tr
 Label=tr
 
-[keyboard-tr-crh]
-Description="キーボード - トルコ語 - クリミア・タタール語 (トルコ語 Q)"
-Language=crh
-Label=crh
-
-[keyboard-tr-crh_f]
-Description="キーボード - トルコ語 - クリミア・タタール語 (トルコ語 F)"
-Language=crh
-Label=crh
-
-[keyboard-tr-crh_alt]
-Description="キーボード - トルコ語 - クリミア・タタール語 (トルコ語 Alt-Q)"
-Language=crh
-Label=crh
-
 [keyboard-tr-ot]
-Description="キーボード - トルコ語 - Ottoman"
+Description="キーボード - トルコ語 - Ottoman (Q)"
 Language=tr
 Label=tr
 
@@ -3128,8 +3243,18 @@ Description="キーボード - トルコ語 - Old Turkic"
 Language=tr
 Label=tr
 
+[keyboard-tr-otkf]
+Description="キーボード - トルコ語 - Old Turkic (F)"
+Language=tr
+Label=tr
+
 [keyboard-tr-sun_type6]
 Description="キーボード - トルコ語 - トルコ語 (Sun Type 6/7)"
+Language=tr
+Label=tr
+
+[keyboard-tr-us]
+Description="キーボード - トルコ語 - Turkish (Turkey, Latin Q, Swap i and ı)"
 Language=tr
 Label=tr
 
@@ -3279,7 +3404,7 @@ Language=es
 Label=latam
 
 [keyboard-latam-deadtilde]
-Description="キーボード - スペイン語 (ラテンアメリカ) - (Latin American, dead tilde)"
+Description="キーボード - スペイン語 (ラテンアメリカ) - Spanish (Latin American, dead tilde)"
 Language=es
 Label=latam
 
@@ -3290,11 +3415,6 @@ Label=latam
 
 [keyboard-latam-colemak]
 Description="キーボード - スペイン語 (ラテンアメリカ) - Spanish (Latin American, Colemak)"
-Language=es
-Label=latam
-
-[keyboard-latam-colemak-gaming]
-Description="キーボード - スペイン語 (ラテンアメリカ) - Spanish (Latin American, Colemak for gaming)"
 Language=es
 Label=latam
 
@@ -3319,7 +3439,7 @@ Language=mt
 Label=mt
 
 [keyboard-custom]
-Description="キーボード - om Layout"
+Description="キーボード - A user-defined custom Layout"
 Language=
 Label=custom
 
@@ -3433,8 +3553,13 @@ Description="キーボード - ポーランド語 - ポーランド語 (Colemak)
 Language=pl
 Label=pl
 
-[keyboard-pl-colemak_dh]
+[keyboard-pl-colemak_dh_ansi]
 Description="キーボード - ポーランド語 - Polish (Colemak-DH)"
+Language=pl
+Label=pl
+
+[keyboard-pl-colemak_dh]
+Description="キーボード - ポーランド語 - Polish (Colemak-DH ISO)"
 Language=pl
 Label=pl
 
@@ -3445,6 +3570,11 @@ Label=pl
 
 [keyboard-pl-glagolica]
 Description="キーボード - ポーランド語 - Polish (Glagolica)"
+Language=pl
+Label=pl
+
+[keyboard-pl-lefty]
+Description="キーボード - ポーランド語 - Polish (lefty)"
 Language=pl
 Label=pl
 
