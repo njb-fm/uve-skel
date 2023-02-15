@@ -1,6 +1,6 @@
 ################################################
 #                                              #
-#   UVGL i3 Edition Configuration File.        #
+#   Uni3valent's Configuration File.           #
 #   Make a habit to read this file. You will   #
 #   find keybindings and various other         #
 #   settings here. Please see                  #
@@ -20,7 +20,7 @@
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar.
-font pango:monospace 15
+font pango:IPAexGothic 15
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -45,7 +45,7 @@ bindsym $mod+t exec pcmanfm-qt
 # This is the recommended mode. It searches for the programs as
 # defined in .desktop file, with their description, and corresponding
 # icons
-bindsym $mod+d exec --no-startup-id rofi -show drun -theme Monokai -icon-theme "Oxygen" -show-icons
+bindsym $mod+d exec --no-startup-id TERMINAL=xfce4-terminal rofi -show drun -theme Monokai -icon-theme "Oxygen" -show-icons
 
 # The other mode search for applications in /usr/bin or /usr/sbin.
 # This should only be used if a program lacks a .desktop file.
