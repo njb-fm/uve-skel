@@ -67,6 +67,9 @@ exec_always feh --bg-fill /usr/share/backgrounds/univalent/univalent-wall-blue.p
 # Launch Udiskie
 exec_always --no-startup-id udiskie -t
 
+# Launch GNOME Policykit Agent
+exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
 # Launch Pamac tray
 exec_always --no-startup-id pamac-tray
 
