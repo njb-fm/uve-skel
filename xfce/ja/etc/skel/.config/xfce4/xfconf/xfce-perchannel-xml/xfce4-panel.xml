@@ -21,7 +21,6 @@
         <value type="int" value="3"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="17"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
@@ -47,6 +46,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="udiskie"/>
         <value type="string" value="ethernet ネットワーク接続 &apos;wired connection 1&apos; はアクティブです"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="clipman"/>
@@ -88,6 +88,5 @@
         <value type="string" value="16725822401.desktop"/>
       </property>
     </property>
-    <property name="plugin-17" type="string" value="xfce4-mount-plugin"/>
   </property>
 </channel>
