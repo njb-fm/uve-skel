@@ -1,4 +1,4 @@
-favorites=floorp.desktop,claws-mail.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
+favorites=firefox.desktop,claws-mail.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
 button-icon=/usr/share/pixmaps/univalent.png
 button-single-row=false
 show-button-title=false
@@ -50,7 +50,7 @@ show-command-profile=true
 search-actions=6
 
 [action0]
-name=Man Page
+name=Man ページ
 pattern=#
 command=exo-open --launch TerminalEmulator man %s
 regex=false
@@ -74,13 +74,13 @@ command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
 regex=false
 
 [action4]
-name=Run on the terminal
+name=ターミナルで実行する
 pattern=!
 command=exo-open --launch TerminalEmulator %s
 regex=false
 
 [action5]
-name=Open URI
+name=URIを開く
 pattern=^(file|http|https):\\/\\/(.*)$
 command=exo-open \\0
 regex=true
