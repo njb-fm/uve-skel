@@ -62,7 +62,7 @@ modules-center = mpd
 modules-right = memory cpu date
 
 tray-position = right
-tray-padding = 7
+tray-padding = 10
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm

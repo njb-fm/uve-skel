@@ -58,9 +58,6 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Launch cbatticon
 exec_always --no-startup-id cbatticon
 
-# Launch Volume Icon
-exec_always --no-startup-id volumeicon
-
 # Launch clipman
 exec_always --no-startup-id xfce4-clipman
 
@@ -73,14 +70,14 @@ exec_always --no-startup-id udiskie -t
 # Launch GNOME Policykit Agent
 exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
-# Launch Pamac tray
-exec_always --no-startup-id pamac-tray
-
 # Launch Dunst. The config file is ~/.config/dunst/dunstrc
 exec_always --no-startup-id dunst
 
 # Launch Fcitx5
 exec_always --no-startup-id fcitx5
+
+# Launch Volume Icon
+exec_always --no-startup-id volumeicon
 
 # Open shortcuts list
 bindsym $mod+c exec --no-startup-id xdg-open ~/.config/i3/shortcuts.list
