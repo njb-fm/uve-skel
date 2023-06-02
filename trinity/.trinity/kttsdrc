@@ -1,0 +1,11 @@
+[Filter_1]
+DesktopEntryName=kttsd_sbdplugin
+Enabled=true
+IsSBD=true
+MultiInstance=true
+SentenceBoundary=\\1\\t
+SentenceDelimiterRegExp=([\\.\\?\\!\\:\\;])(\\s|$|(\\n *\\n))
+UserFilterName=標準センテンス境界検出
+
+[General]
+FilterIDs=1

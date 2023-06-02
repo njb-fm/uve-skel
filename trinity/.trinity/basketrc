@@ -1,0 +1,111 @@
+[File Look]
+bold=false
+color=invalid
+hoverColor=invalid
+iconSize=32
+italic=false
+preview=TwiceIconSize
+underlining=Never
+
+[Insert Note Default Values]
+defIconSize=32
+defImageX=300
+defImageY=200
+
+[Launcher Look]
+bold=true
+color=invalid
+hoverColor=invalid
+iconSize=48
+italic=false
+preview=None
+underlining=Never
+
+[Local Link Look]
+bold=false
+color=invalid
+hoverColor=invalid
+iconSize=22
+italic=true
+preview=TwiceIconSize
+underlining=OnMouseHover
+
+[Main window]
+autoBullet=true
+basketTreeWidth=-1
+bigNotes=false
+blinkedFilter=false
+confirmNoteDeletion=true
+dataFolder[$e]=
+enableReLockTimeout=true
+exportTextTags=true
+filterOnTop=true
+groupOnInsertionLine=false
+hideOnMouseOut=false
+lastBackup=2935093,2,28,0,0,0
+middleAction=0
+playAnimations=true
+position=3,29
+reLockTimeoutMinutes=0
+showIconInSystray=false
+showNotesToolTip=true
+showOnMouseIn=false
+size=1066,666
+spellCheckTextNotes=true
+startDocked=true
+timeToHideOnMouseOut=0
+timeToShowOnMouseIn=1
+treeOnLeft=true
+usePassivePopup=true
+useSystray=true
+welcomeBasketsAdded=true
+
+[MainWindow]
+Height 800=666
+Width 1280=1066
+
+[MainWindow Toolbar mainToolBar]
+Index=0
+alreadySetToolbarSettings=true
+
+[MainWindow Toolbar richTextEditToolBar]
+IconText=IconOnly
+Index=1
+
+[Network Link Look]
+bold=false
+color=invalid
+hoverColor=invalid
+iconSize=16
+italic=false
+preview=None
+underlining=OnMouseOutside
+
+[Note Addition]
+newNotesPlace=1
+viewHtmlFileContent=0
+viewImageFileContent=1
+viewSoundFileContent=1
+viewTextFileContent=0
+
+[Notification Messages]
+emptyBasketInfo=true
+
+[Programs]
+animationProg=gimp
+animationUseProg=true
+htmlProg=quanta
+htmlUseProg=false
+imageProg=kolourpaint
+imageUseProg=true
+soundProg=
+soundUseProg=false
+
+[Sound Look]
+bold=false
+color=invalid
+hoverColor=invalid
+iconSize=32
+italic=false
+preview=None
+underlining=Never

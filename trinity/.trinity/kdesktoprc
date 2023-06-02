@@ -1,0 +1,28 @@
+[Desktop Icons]
+Preview=imagethumbnail
+
+[Desktop0]
+BackgroundMode=VerticalGradient
+Color1=30,114,160
+Color2=192,192,192
+MultiWallpaperMode=NoMulti
+Wallpaper[$e]=Trinity-lineart.svg
+WallpaperMode=Scaled
+
+[FMSettings]
+NormalTextColor=255,255,255
+UnderlineLinks=false
+
+[Menubar]
+ShowMenubar=false
+
+[MiniCli]
+History[$e]=l3afpad
+TerminalApps[$e]=ls
+
+[Mouse Buttons]
+Middle=WindowListMenu
+
+[Version]
+KDEVersionMajor=14
+KDEVersionMinor=1

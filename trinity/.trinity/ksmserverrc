@@ -1,0 +1,32 @@
+[$Version]
+update_info=ksmserver.upd:trinity
+
+[General]
+screenCount=1
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10149decee4000168571111800000005670000
+clientId2=10149decee4000168571112100000005670016
+clientId3=10149decee4000168571112100000005670017
+count=3
+discardCommand1[$e]=rm,$HOME/.trinity/share/config/session/twin_10149decee4000168571111800000005670000_1685711373_358000
+discardCommand2[$e]=
+discardCommand3[$e]=
+program1=twin
+program2=tderandrtray
+program3=tdehwdevicetray
+restartCommand1=twin,-session,10149decee4000168571111800000005670000_1685711373_358000
+restartCommand2=tderandrtray,-session,10149decee4000168571112100000005670016_1685711373_324717
+restartCommand3=tdehwdevicetray,-session,10149decee4000168571112100000005670017_1685711373_325015
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=hay
+userId2=hay
+userId3=hay
+wasWm1=true
+wasWm2=false
+wasWm3=false
