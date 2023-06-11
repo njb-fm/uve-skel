@@ -1,6 +1,0 @@
-[History]
-CompletionItems=unused
-
-[Location Bar]
-ComboContents[$e]=/usr/share/applications/,$HOME/.trinity/,$HOME/uvgl-skel/gnome/etc/skel/,/usr/share/applications,$HOME/uvgl-skel/xfce/etc/skel/.config/
-ComboIconCache[$e]=/usr/share/applications/,folder,$HOME/.trinity/,folder,$HOME/uvgl-skel/gnome/etc/skel/,folder,/usr/share/applications,folder,$HOME/uvgl-skel/xfce/etc/skel/.config/,folder

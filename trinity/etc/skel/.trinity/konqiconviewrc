@@ -1,5 +1,0 @@
-[Settings]
-DontPreview=svgthumbnail,exrthumbnail,videothumbnail,textthumbnail,pothumbnail,cursorthumbnail,fontthumbnail,designerthumbnail,webarchivethumbnail,basketthumbcreator,djvuthumbnail,ldifvcardthumbnail,gsthumbnail,htmlthumbnail
-PreviewsEnabled=true
-SortDirsFirst=true
-SortingCriterion=sort_nci

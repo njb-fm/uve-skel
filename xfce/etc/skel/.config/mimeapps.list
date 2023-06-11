@@ -1,6 +1,6 @@
 [Default Applications]
-x-scheme-handler/http=floorp.desktop
-x-scheme-handler/https=floorp.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
 x-scheme-handler/mailto=claws-mail.desktop
 image/jpeg=org.xfce.ristretto.desktop
 image/png=org.xfce.ristretto.desktop
@@ -10,8 +10,8 @@ audio/flac=org.gnome.Rhythmbox3.desktop;
 audio/ogg=org.gnome.Rhythmbox3.desktop;
 
 [Added Associations]
-x-scheme-handler/http=floorp.desktop;
-x-scheme-handler/https=floorp.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/mailto=claws-mail.desktop;
 image/jpeg=lximage-qt.desktop;org.xfce.ristretto.desktop;
 image/png=lximage-qt.desktop;org.xfce.ristretto.desktop;

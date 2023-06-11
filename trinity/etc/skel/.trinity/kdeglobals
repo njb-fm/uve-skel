@@ -173,16 +173,9 @@ Gestures=false
 [License Info]
 R14.1=true
 
-[Locale]
-Country=jp
-Language=ja
-
 [PanelIcons]
 ActiveEffect=togamma
 ActiveValue=0.7
-
-[Paths]
-Trash[$e]=$HOME/デスクトップ/ごみ箱/
 
 [R14 XDG Updates]
 Updated=true
