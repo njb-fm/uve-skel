@@ -1,0 +1,13 @@
+{
+    "BookMark": {
+        "Items": [
+        ]
+    },
+    "GenericAttribute": {
+        "MergeTheEntriesOfSambaSharedFolders": true
+    },
+    "StashedSmbDevices": {
+        "SmbIntegrations": [
+        ]
+    }
+}
