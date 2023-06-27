@@ -51,12 +51,9 @@ bindsym $mod+d exec --no-startup-id TERMINAL=xfce4-terminal rofi -show drun -the
 # This should only be used if a program lacks a .desktop file.
 bindsym $mod+Shift+d exec --no-startup-id TERMINAL=xfce4-terminal rofi -show run -theme Monokai
 
-# Launch Polybar. Take a look at ~/.confi/polybar/config to
+# Launch Tint2. Take a look at ~/.config/tint2/tint2rc to
 # configure the bar.
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
-# Launch cbatticon
-exec_always --no-startup-id cbatticon
+exec_always --no-startup-id tint2
 
 # Launch clipman
 exec_always --no-startup-id xfce4-clipman
@@ -77,7 +74,7 @@ exec_always --no-startup-id dunst
 exec_always --no-startup-id fcitx5
 
 # Launch Volume Icon
-exec_always --no-startup-id volumeicon
+exec_always volumeicon
 
 # Open shortcuts list
 bindsym $mod+c exec --no-startup-id xdg-open ~/.config/i3/shortcuts.list
