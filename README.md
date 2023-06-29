@@ -1,2 +1,2 @@
-# uvgl-skel
-Settings for Univalent GNU/Linux
+# uve-skel
+Settings for Univalent
