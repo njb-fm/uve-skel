@@ -15,4 +15,6 @@ image/png=lximage-qt.desktop;org.xfce.ristretto.desktop;
 image/gif=lximage-qt.desktop;org.xfce.ristretto.desktop;
 application/vnd.kde.kxmlguirc=l3afpad.desktop;
 text/plain=l3afpad.desktop;
-application/x-shellscript=l3afpad.desktop;
+audio/mpeg=org.gnome.Rhythmbox3.desktop;
+audio/flac=org.gnome.Rhythmbox3.desktop;
+audio/ogg=org.gnome.Rhythmbox3.desktop;
