@@ -284,6 +284,11 @@
         <command>rofi -show p -theme Monokai -modi p:/usr/share/unibox/rofi-power-menu</command>
       </action>
     </keybind>
+    <keybind key="W-i">
+      <action name="Execute">
+        <command>sudo -E calamares</command>
+      </action>
+    </keybind>
     <!-- Keybindings for windows -->
     <keybind key="A-F4">
       <action name="Close"/>
@@ -354,9 +359,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Konqueror</name>
+          <name>pcmanfm</name>
         </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+        <command>pcmanfm</command>
       </action>
     </keybind>
   </keyboard>
