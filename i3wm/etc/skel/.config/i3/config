@@ -77,7 +77,7 @@ exec_always --no-startup-id dunst
 exec_always --no-startup-id fcitx5
 
 # Launch Volume Icon
-exec_always --no-startup-id sh -c "sleep 1 && volumeicon"
+exec_always --no-startup-id sh -c "sleep 10 && volumeicon"
 
 # Open shortcuts list
 bindsym $mod+c exec --no-startup-id xdg-open ~/.config/i3/shortcuts.list
