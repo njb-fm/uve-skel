@@ -1,6 +1,0 @@
-tint2 &
-sleep 1s && dunst &
-sleep 1s && udiskie -t &
-sleep 2s && fcitx5 &
-sleep 3s && volumeicon &
-sleep 5s &&unibox-sensible-browser &
