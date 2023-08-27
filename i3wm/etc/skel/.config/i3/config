@@ -1,20 +1,6 @@
-################################################
-#                                              #
-#   Uni3valent's Configuration File.           #
-#   Make a habit to read this file. You will   #
-#   find keybindings and various other         #
-#   settings here. Please see                  #
-#                                              #
-#       https://i3wm.org/docs/userguide.html   #
-#                                              #
-#   for a complete reference on moving forward #
-#   from what I have provided here.            #
-#                                              #
-################################################
+# Uni3valent's Configuration File.
 
-
-
-# This is our mod Key. Currently it is set to the Windows Key.
+# This is our mod Key. Currently it is set to the Command Key.
 # You can uncomment the line below to set 'Alt' key as the mod key.
 #set $mod Mod1
 set $mod Mod4
@@ -77,7 +63,7 @@ exec_always --no-startup-id dunst
 exec_always --no-startup-id fcitx5
 
 # Launch Volume Icon
-exec_always --no-startup-id sh -c "sleep 10 && volumeicon"
+exec_always --no-startup-id sh -c "sleep 15s && volumeicon"
 
 # Open shortcuts list
 bindsym $mod+c exec --no-startup-id xdg-open ~/.config/i3/shortcuts.list
