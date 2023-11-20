@@ -269,7 +269,7 @@ toggle do not disturb=none,none,Toggle do not disturb
 
 [systemsettings.desktop]
 _k_friendly_name=System Settings
-_launch=Tools\tAlt+S,Tools,System Settings
+_launch=Meta+I,Tools,System Settings
 kcm-kscreen=Ctrl+D,none,Display Configuration
 kcm-lookandfeel=none,none,Global Theme
 kcm-users=none,none,Users
