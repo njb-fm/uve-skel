@@ -18,3 +18,4 @@ text/plain=l3afpad.desktop;
 audio/mpeg=org.gnome.Rhythmbox3.desktop;
 audio/flac=org.gnome.Rhythmbox3.desktop;
 audio/ogg=org.gnome.Rhythmbox3.desktop;
+application/vnd.efi.iso=udisksctl-loop-setup.desktop;

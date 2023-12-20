@@ -19,3 +19,4 @@ image/gif=lximage-qt.desktop;org.xfce.ristretto.desktop;
 application/vnd.kde.kxmlguirc=org.xfce.mousepad.desktop;
 text/plain=l3afpad.desktop;
 application/x-shellscript=org.xfce.mousepad.desktop;
+application/vnd.efi.iso=udisksctl-loop-setup.desktop;

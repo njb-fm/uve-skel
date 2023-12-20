@@ -16,3 +16,4 @@ image/gif=lximage-qt.desktop;org.xfce.ristretto.desktop;
 application/vnd.kde.kxmlguirc=l3afpad.desktop;
 text/plain=l3afpad.desktop;
 application/x-shellscript=l3afpad.desktop;
+application/vnd.efi.iso=udisksctl-loop-setup.desktop;
