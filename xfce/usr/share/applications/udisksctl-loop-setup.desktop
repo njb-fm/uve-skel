@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=loopback-mount
-Exec=udisksctl loop-setup -r -f %f
-Categories=Other;
-NoDisplay=true
-MimeType=application/vnd.efi.iso
-Terminal=false
